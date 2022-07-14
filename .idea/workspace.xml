@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5228cb7-fd79-4c0b-a21a-562464ee6803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced_Java_Topics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/CollectionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/EmailComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/ListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicArray/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/GenericList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionsDemo/CollectionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionsDemo/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/EmailComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionsDemo/EmailComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionsDemo/ListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +42,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/DJR-Intellij/Advanced_Java_Topics2"
   }
 }]]></component>
   <component name="RecentsManager">

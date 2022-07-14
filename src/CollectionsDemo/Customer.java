@@ -1,4 +1,4 @@
-package Collections;
+package CollectionsDemo;
 
 public class Customer implements Comparable<Customer>{
     private String name;
