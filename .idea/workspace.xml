@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5228cb7-fd79-4c0b-a21a-562464ee6803" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionsDemo/CollectionsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionsDemo/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/EmailComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionsDemo/EmailComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionsDemo/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsDemo/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsDemo/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsDemo/SetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
