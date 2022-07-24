@@ -9,6 +9,6 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        MapDemo.show();
+        System.out.println(Runtime.getRuntime().availableProcessors());
     }
 }
