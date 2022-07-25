@@ -1,5 +1,4 @@
 import CollectionsDemo.Customer;
-import CollectionsDemo.EmailComparator;
 import CollectionsDemo.MapDemo;
 import CollectionsDemo.SetDemo;
 import LinkedLists.LinkedList;
