@@ -1,6 +1,5 @@
 package LinkedLists;
 
-
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 //Updated
@@ -189,6 +188,60 @@ public class LinkedList {
         //40
         first = previous;
     }
+
+    public void printMiddle(){
+        Node leadPointer = first.next;//2
+        Node currMiddle = first;//1
+        if(isEmpty()){
+            throw new NoSuchElementException();
+        }
+        if (first == last){
+            System.out.println(first.value);
+            return;
+        }
+        if (leadPointer == last){
+            System.out.println(first.value + ", " + last.value);
+            return;
+        }
+        if(hasLoop() != null){
+            System.out.println("This list is looped");
+            return;
+        }
+        int count = 2;
+        while(leadPointer.next != null){
+            leadPointer = leadPointer.next;
+            count++;
+            if(count % 2 != 0){
+                currMiddle = currMiddle.next;
+            }
+        }
+        if(count % 2 == 0){
+            System.out.println("[" + currMiddle.value + ", " + currMiddle.next.value + "]");
+        }
+        else{
+        System.out.println(currMiddle.value);
+        }
+    }
+
+    public String hasLoop(){
+        Node firstPointer = first;
+        Node secondPointer = first;
+
+        while(secondPointer!= null){
+            firstPointer = firstPointer.next;
+            secondPointer = secondPointer.next.next;
+
+            if(firstPointer == secondPointer){
+                return "A loop exists";
+            }
+        }
+        return null;
+    }
+
+    public void createListWithLoop(){
+        last.next = first;
+    }
+
 
     //approach with node parameter
     /*

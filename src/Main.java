@@ -15,7 +15,10 @@ public class Main {
         list.addLast(20);
         list.addLast(30);
         list.addLast(40);
+        list.createListWithLoop();
 
-        System.out.println(list.getTheKthNodeFromEnd(1));
+//        list.addLast(50);
+        System.out.println(list.hasLoop());
+        list.printMiddle();
     }
 }
