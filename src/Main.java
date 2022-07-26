@@ -1,24 +1,30 @@
-import CollectionsDemo.Customer;
-import CollectionsDemo.MapDemo;
-import CollectionsDemo.SetDemo;
-import LinkedLists.LinkedList;
+import Stacks.StringReverser;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
-        list.addLast(10);
-        list.addLast(20);
-        list.addLast(30);
-        list.addLast(40);
-        list.createListWithLoop();
+        String str = "(1 + 2";
+        String str1 = "(1 + 2>";
+        String str2 = ")1+2(";
+        String str3 = "((1+2)";
+        String str4 = "(1+2)";
+        String str5 = "((1+2))";
+        String str6 = "((1 + 2)[a])";
 
-//        list.addLast(50);
-        System.out.println(list.hasLoop());
-        list.printMiddle();
+
+    }
+
+    public boolean isBalanced(String str){
+        Stack<Character> stack = new Stack<>();
+        for (char c :
+                str.toCharArray()) {
+            if (c == '(' || c == '[' || c == '{' || c == '<'){
+                stack.push(c);
+            }
+            if(c == ')' || c == ']' || c == '}' || c == '>'){
+
+            }
+        }
     }
 }

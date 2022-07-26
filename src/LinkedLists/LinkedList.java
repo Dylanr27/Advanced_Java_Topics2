@@ -14,7 +14,6 @@ public class LinkedList {
     }
     private Node first;
     private Node last;
-
     private int size;
 
     public LinkedList() {
@@ -72,14 +71,6 @@ public class LinkedList {
     }
 
     public boolean contains(int item){
-//        Node current = first;
-//        while(current != null){
-//            if (current.value == item){
-//                return true;
-//            }
-//            current = current.next;
-//        }
-//        return false;
         return indexOf(item) != -1;
     }
 
@@ -242,7 +233,7 @@ public class LinkedList {
         last.next = first;
     }
 
-
+    //LinkedList reversal
     //approach with node parameter
     /*
         Initialize three pointers prev as NULL, curr as head and next as NULL.
